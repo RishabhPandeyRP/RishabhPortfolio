@@ -17,7 +17,7 @@ const NavBar = ({ theme, func }) => {
             <div className="flex justify-center w-fit items-center gap-5 mt-2 lg:mx-7 sm:mx-auto xs:mx-auto">
                 <img src={profilepic2} alt="" className="w-[60px] h-[60px] rounded-full object-contain  border-red-500" />
 
-                <p className=" border-red-600 font-pop text-2xl sm:text-2xl">
+                <p className=" border-red-600 font-pop text-2xl sm:text-2xl xs:text-xl">
                     Rishabh Pandey
                 </p>
             </div>
@@ -52,7 +52,7 @@ const NavBar = ({ theme, func }) => {
                 </div>
             </div>
             <div className=" w-fit h-fit  border border-slate-200 bg-slate-200 rounded-lg ml-7 hover:bg-slate-300 duration-75 lg:hidden xl:hidden" onClick={func}>
-                    <img src={darkTheme} alt="" className="w-[35px] h-[35px]" />
+                    <img src={darkTheme} alt="" className="w-[35px] h-[35px] xs:w-[30px] xs:h-[30px]" />
             </div>
         </div>
             :
@@ -61,7 +61,7 @@ const NavBar = ({ theme, func }) => {
                 <div className="flex justify-center w-fit items-center gap-5 mt-2 lg:mx-7 sm:mx-auto xs:mx-auto">
                     <img src={profilepic} alt="" className="w-[60px] h-[60px] rounded-full object-contain  border-red-500" />
 
-                    <p className=" border-red-600 font-pop text-2xl sm:text-2xl">
+                    <p className=" border-red-600 font-pop text-2xl sm:text-2xl xs:text-xl">
                         Rishabh Pandey
                     </p>
                 </div>
@@ -99,6 +99,9 @@ const NavBar = ({ theme, func }) => {
                         <img src={lightTheme} alt="" className="w-[25px] h-[25px]" />
                     </div>
                 </div>
+                <div className=" p-1 w-fit h-fit  border border-slate-200 bg-slate-200 rounded-lg ml-7 hover:bg-slate-300 duration-75 lg:hidden xl:hidden" onClick={func}>
+                    <img src={lightTheme} alt="" className="w-[25px] h-[25px] xs:w-[20px] xs:h-[20px]" />
+            </div>
             </div>
     )
 }

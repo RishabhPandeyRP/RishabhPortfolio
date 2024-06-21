@@ -115,7 +115,7 @@ const ContactForm = ({theme}) => {
                 submitStatus ? <div className="w-fit h-fit" >
                 <Buttons text="bg-[#7843E9] rounded-md  w-fit border border-[#7843E9] px-10 text-lg text-white mt-3 py-2 font-pop mb-2 duration-150 hover:scale-[99%] xs:px-3 xs:py-1" content="SUBMIT"></Buttons>
             </div> : <div className="w-fit h-fit" onClick={submitHandler}>
-                <Buttons text="bg-[#7843E9] rounded-md  w-fit border border-[#7843E9] px-10 text-lg text-white mt-3 py-2 font-pop mb-2 duration-150 hover:scale-[99%] xs:px-3 xs:py-1" content="SUBMIT"></Buttons>
+                <Buttons text="bg-[#7843E9] rounded-md  w-fit border border-[#7843E9] px-10 text-lg text-white mt-3 py-2 font-pop mb-2 duration-150 hover:scale-[99%] xs:px-3 xs:py-1" content="SUBMITTING"></Buttons>
             </div>
             }
 

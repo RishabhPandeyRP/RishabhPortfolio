@@ -19,12 +19,10 @@ const Project1 = ({ details, theme, skill_arr }: any) => {
                     <img src={details.image} alt="" className="w-[550px] h-[300px]  border-green-400 rounded-md object-fill xs:w-[500px] xs:h-[250px]" />
                 </div>
 
-                <div className=" flex  h-fit w-fit gap-10 sm:mx-auto">
+                <div className=" flex  h-fit w-fit gap-10 sm:mx-auto xs:mx-auto">
                     <a href={details.proj_link} target="_blank">
                     <div>
                     <Buttons text=" bg-[#7843E9] rounded-md  w-fit border border-[#7843E9] px-8 lg:text-2xl text-white mt-8 py-2 font-pop mb-2 duration-150 hover:scale-[99%] xs:text-lg xs:px-3 xs:py-1" content="Project Link"></Buttons>
-                        
-                        
                         
                     </div>
                     </a>
@@ -75,7 +73,7 @@ const Project1 = ({ details, theme, skill_arr }: any) => {
                         <img src={details.image} alt="" className="w-[550px] h-[300px]  border-green-400 rounded-md object-fill xs:w-[500px] xs:h-[250px]" />
                     </div>
 
-                    <div className=" flex  h-fit w-fit gap-10 sm:mx-auto">
+                    <div className=" flex  h-fit w-fit gap-10 sm:mx-auto xs:mx-auto">
                         <div>
                         <a href={details.proj_link} target="_blank">
                             <Buttons text=" bg-[#7843E9] rounded-md  w-fit border border-[#7843E9] px-8 lg:text-2xl text-white mt-8 py-2 font-pop mb-2 duration-150 hover:scale-[99%] xs:text-lg xs:px-3 xs:py-1" content="Project Link"></Buttons>
