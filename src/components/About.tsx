@@ -6,7 +6,7 @@ import { Link } from "react-scroll"
 //@ts-ignore
 const About = ({ theme }) => {
 
-    let skill_arr = ["HTML","CSS" ,"React" , "Nodejs" , "Javascript"  , "Tailwind CSS" , "Hono", "TypeScript", "Express", "Prisma", "Zod"];
+    let skill_arr = ["HTML","CSS" ,"React" , "Nodejs" , "Javascript"  , "Tailwind CSS" , "Hono", "TypeScript", "Express", "Prisma", "Zod"]; 
 
     return (
         theme == "light" ? <div className=" border-red-900 overscroll-x-hidden" id="about">
