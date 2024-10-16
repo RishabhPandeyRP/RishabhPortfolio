@@ -8,6 +8,8 @@ import { Routes } from "react-router-dom"
 import { Route } from "react-router-dom"
 //@ts-ignore
 import { project_arr } from "../src/project_arr"  
+//@ts-ignore
+import { project_arr } from "../src/project_arr"
 
 
 //import UltimateHome from "./components/UltimateHome"

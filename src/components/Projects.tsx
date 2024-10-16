@@ -3,7 +3,7 @@ import inkspire from "../assets/Screenshot 2024-05-16 141539.png"
 import movix from "../assets/Movix.png"
 import Buttons from "./Buttons"
 //import ModalProject from "./ModalProject"
-import { lazy, useEffect, useState } from "react"
+import {  useEffect } from "react"
 import { useNavigate } from "react-router-dom"
 
 //const ModalProject = lazy(()=>import("./ModalProject"))
