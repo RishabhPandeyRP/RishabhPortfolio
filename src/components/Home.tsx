@@ -27,7 +27,7 @@ const Home = ({theme}) => {
 
         <div className=" w-fit mx-auto ">
 
-            <Link to="projects" spy={true} smooth={true} offset={-500} duration={500}>
+            <Link to="projects" spy={true} smooth={true} offset={-100} duration={500}>
                 <Buttons text={" bg-[#7843E9] rounded-md w-fit border border-[#7843E9] px-20 text-2xl text-white mt-9 py-2 font-pop mb-2 hover:-translate-y-0.5 duration-150 hover:scale-[99%] xs:text-lg xs:px-5 xs:py-1"} content={"PROJECTS"}></Buttons>
             </Link>
 
@@ -77,7 +77,7 @@ const Home = ({theme}) => {
 
             <div className=" w-fit mx-auto ">
 
-                <Link to="projects" spy={true} smooth={true} offset={-100} duration={500}>
+                <Link to="projects" spy={true} smooth={true} offset={50} duration={500}>
                     <Buttons text={" bg-[#7843E9] rounded-md w-fit border border-[#7843E9] px-20 text-2xl text-white mt-9 py-2 font-pop mb-2 hover:-translate-y-0.5 duration-150 hover:scale-[99%] xs:text-lg xs:px-5 xs:py-1"} content={"PROJECTS"}></Buttons>
                 </Link>
 

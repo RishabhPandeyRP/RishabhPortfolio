@@ -34,14 +34,14 @@ const About = ({ theme }) => {
                         Get to know me!
                     </p>
 
-                    <p className=" text-lg  my-3 text-neutral-800  sm:text-center sm:mt-5 lg:text-left xl:text-left xs:text-center xs:text-sm">
+                    <p className=" text-lg  my-3 text-neutral-800  sm:text-center sm:mt-5 lg:text-left xl:text-justify xs:text-center xs:text-sm text-justify">
                     I'm a passionate frontend developer who specializes in building and managing the user interfaces of websites and web applications. My focus is on creating intuitive and engaging experiences that drive the overall success of the product. Want to see my work in action? Head over to the Projects section to explore my creations!
                     </p>
-                    <p className=" text-lg  my-3 text-neutral-700  sm:text-center sm:mt-5 lg:text-left xl:text-left xs:text-center xs:text-sm">
+                    <p className=" text-lg  my-3 text-neutral-700  sm:text-center sm:mt-5 lg:text-left xl:text-justify xs:text-center xs:text-sm text-justify">
 
                     Beyond coding, I'm dedicated to giving back to the developer community. Over the years, I've gained valuable knowledge in web development, and I love sharing it with others.  Follow me on LinkedIn and Instagram for insightful content related to web development and programming. You'll find helpful tips, tricks, and industry updates to keep you ahead of the curve.
                     </p>
-                    <p className=" text-lg  my-3 text-neutral-700  sm:text-center sm:mt-5 lg:text-left xl:text-left xs:text-center xs:text-sm">
+                    <p className=" text-lg  my-3 text-neutral-700  sm:text-center sm:mt-5 lg:text-left xl:text-justify xs:text-center xs:text-sm text-justify">
 
                     I'm always eager to learn, grow, and contribute my skills to exciting new projects. Are you looking for a talented frontend developer? If you have an opportunity that aligns with my expertise and passion for web development, don't hesitate to reach out!
                     </p>
@@ -89,20 +89,20 @@ const About = ({ theme }) => {
                             Get to know me!
                         </p>
 
-                        <p className=" text-lg  my-3  sm:text-center sm:mt-5 lg:text-left xl:text-left xs:text-center xs:text-sm text-neutral-300">
+                        <p className=" text-lg  my-3  sm:text-center sm:mt-5 lg:text-left xl:text-justify xs:text-center xs:text-sm text-neutral-300 text-justify">
                         I'm a passionate frontend developer who specializes in building and managing the user interfaces of websites and web applications. My focus is on creating intuitive and engaging experiences that drive the overall success of the product. Want to see my work in action? Head over to the Projects section to explore my creations!
                         </p>
-                        <p className=" text-lg  my-3   sm:text-center sm:mt-5 lg:text-left xl:text-left xs:text-center xs:text-sm text-neutral-300">
+                        <p className=" text-lg  my-3   sm:text-center sm:mt-5 lg:text-left xl:text-justify xs:text-center xs:text-sm text-neutral-300 text-justify">
 
                         Beyond coding, I'm dedicated to giving back to the developer community. Over the years, I've gained valuable knowledge in web development, and I love sharing it with others.  Follow me on LinkedIn and Instagram for insightful content related to web development and programming. You'll find helpful tips, tricks, and industry updates to keep you ahead of the curve.
                         </p>
-                        <p className=" text-lg  my-3   sm:text-center sm:mt-5 lg:text-left xl:text-left xs:text-center xs:text-sm text-neutral-300">
+                        <p className=" text-lg  my-3   sm:text-justify sm:mt-5 lg:text-justify xl:text-justify xs:text-center xs:text-sm text-neutral-300 ">
 
                         I'm always eager to learn, grow, and contribute my skills to exciting new projects. Are you looking for a talented frontend developer? If you have an opportunity that aligns with my expertise and passion for web development, don't hesitate to reach out!
                         </p>
 
                         <div className="w-fit h-fit sm:mx-auto xs:mx-auto sm:mt-3 ">
-                            <Link to="contacts" spy={true} smooth={true} offset={-100} duration={500}>
+                            <Link to="contacts" spy={true} smooth={true} offset={50} duration={500}>
                                 <Buttons text=" bg-[#7843E9] rounded-md  w-fit border border-[#7843E9] px-10 text-lg text-white mt-3 py-2 font-pop mb-2 duration-150 hover:scale-[99%] lg:-ml-20 xs:px-3 xs:py-1 " content="CONTACT"></Buttons>
                             </Link>
                         </div>

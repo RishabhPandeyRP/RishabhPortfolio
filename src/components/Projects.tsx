@@ -1,26 +1,37 @@
 import lexiImage from "../assets/Screenshot 2024-05-16 112318.png"
 import inkspire from "../assets/Screenshot 2024-05-16 141539.png"
+import movix from "../assets/Movix.png"
 import Buttons from "./Buttons"
-import ModalProject from "./ModalProject"
-import { useState } from "react"
+//import ModalProject from "./ModalProject"
+import { lazy, useEffect, useState } from "react"
 import { useNavigate } from "react-router-dom"
+
+//const ModalProject = lazy(()=>import("./ModalProject"))
 
 //@ts-ignore
 const Projects = ({ theme }) => {
     const navigate = useNavigate();
+    useEffect(()=>{
+        window.scrollTo(0,0);
+    },[])
 
-    const [modalStatus, setModalStatus] = useState(false);
+    // const [modalStatus, setModalStatus] = useState(false);
 
     // function btnHandler() {
     //     console.log("object");
     //     setModalStatus(!modalStatus);
     // }
 
-    function closeModalHandler(){
-        setModalStatus(false);
-    }
+    // function closeModalHandler(){
+    //     setModalStatus(false);
+    // }
 
     let project_arr = [{
+        image: movix,
+        title: "Movix",
+        info: "Movix is a web application that lets users search for movies, view their ratings, and watch trailers all in one place.",
+        link: "/project-3"
+    },{
         image: lexiImage,
         title: "LexiToken",
         info: "It is a lexical analyzer simulator built for simulating the tokenization process for compilers of various languages.",
@@ -60,7 +71,7 @@ const Projects = ({ theme }) => {
                                 {item.title}
                             </p>
 
-                            <p className=" text-lg xs:text-sm">
+                            <p className=" text-lg xs:text-sm text-justify">
                                 {item.info}
                             </p>
 
@@ -105,7 +116,7 @@ const Projects = ({ theme }) => {
                                     {item.title}
                                 </p>
 
-                                <p className=" text-lg xs:text-sm">
+                                <p className=" text-lg xs:text-sm text-justify">
                                     {item.info}
                                 </p>
 
@@ -119,9 +130,9 @@ const Projects = ({ theme }) => {
                     ))
                 }
 
-                {
+                {/* {
                     modalStatus && <ModalProject closeModal={closeModalHandler}></ModalProject>
-                }
+                } */}
 
             </div>
     )
