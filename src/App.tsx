@@ -6,6 +6,7 @@ import { Toaster } from "react-hot-toast"
 import { lazy, Suspense, useEffect, useState } from "react"
 import { Routes } from "react-router-dom"
 import { Route } from "react-router-dom"
+//@ts-ignore
 import { project_arr } from "../src/project_arr"
 
 
