@@ -1,6 +1,7 @@
 import lexiImage from "./assets/Screenshot 2024-05-16 112318.png"
 import inkspire from "./assets/Screenshot 2024-05-16 141539.png"
 import movix from "./assets/Movix.png"
+import jaiMulti from "./assets/JaiMulti.png"
 export const project_arr = [{
   image: lexiImage,
   title: "LexiToken",
@@ -42,6 +43,20 @@ export const project_arr = [{
   skill_arr: ["HTML", "Javascript", "SCSS", "ReactJS" , "Netlify"],
   proj_link: "https://github.com/RishabhPandeyRP/MoviesDB",
   live_link: "https://movix-2.netlify.app/"
+
+
+},{
+  image: jaiMulti,
+  title: "Jai Multi Engg Co.",
+  overview1: `Rine Group of Industries is a leading manufacturing company specializing in critical casting and electromechanical products for the Indian Railways. With a strong focus on precision and quality, Rine Group produces essential components like couplers, knuckles, axle boxes, alternators, oil cooling units, and control panels. Supported by over 250 skilled professionals, the company is committed to meeting the rigorous standards of the railway sector, contributing to the nation's transportation infrastructure with reliable and high-performance solutions.`,
+
+  overview2: `Rine Group is dedicated to delivering high-quality casting and electromechanical products that ensure safety and reliability for the Indian Railways and other industries. Innovation, continuous improvement, and a commitment to quality drive the company’s operations. With a talented workforce, the company strives to maintain the highest standards, meeting the critical operational needs of its clients while upholding excellence in every product.`,
+
+  overview3: `Rine Group aims to become a global leader in the supply of critical casting products, known for its commitment to quality, innovation, and customer satisfaction. Building on 30 years of experience, the company seeks to expand its reach and set new benchmarks in the industry, contributing to the safety and performance of the sectors it serves.`,
+
+  skill_arr: ["HTML", "Javascript", "Tailwind CSS", "ReactJS" ],
+  proj_link: "https://github.com/RishabhPandeyRP/Jai_Multi",
+  live_link: "https://jai-multi.vercel.app"
 
 
 },]

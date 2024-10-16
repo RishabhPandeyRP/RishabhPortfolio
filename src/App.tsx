@@ -92,6 +92,7 @@ function App() {
           <Route path="/project-1" element={<Project1 details={project_arr[0]} theme={theme} skill_arr={project_arr[0].skill_arr}></Project1>}></Route>
           <Route path="/project-2" element={<Project1 details={project_arr[1]} theme={theme} skill_arr={project_arr[1].skill_arr}></Project1>}></Route>
           <Route path="/project-3" element={<Project1 details={project_arr[2]} theme={theme} skill_arr={project_arr[2].skill_arr}></Project1>}></Route>
+          <Route path="/project-4" element={<Project1 details={project_arr[3]} theme={theme} skill_arr={project_arr[3].skill_arr}></Project1>}></Route>
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
 

@@ -1,6 +1,7 @@
 import lexiImage from "../assets/Screenshot 2024-05-16 112318.png"
 import inkspire from "../assets/Screenshot 2024-05-16 141539.png"
 import movix from "../assets/Movix.png"
+import jaiMulti from "../assets/JaiMulti.png"
 import Buttons from "./Buttons"
 //import ModalProject from "./ModalProject"
 import {  useEffect } from "react"
@@ -27,6 +28,11 @@ const Projects = ({ theme }) => {
     // }
 
     let project_arr = [{
+        image: jaiMulti,
+        title: "Rine Group of Industries",
+        info: "Rine Group of Industries is a leading manufacturer of high-quality casting and electromechanical products, specializing in critical components for the Indian Railways.",
+        link: "/project-4"
+    },{
         image: movix,
         title: "Movix",
         info: "Movix is a web application that lets users search for movies, view their ratings, and watch trailers all in one place.",
